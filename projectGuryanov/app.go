@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ProjectGuryanov/ProjectGuryanov/house"
+	"ProjectGuryanov/projectGuryanov/house"
 )
 
 func main() {

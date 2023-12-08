@@ -1,11 +1,11 @@
 package house
 
 import (
-	"ProjectGuryanov/ProjectGuryanov/animals"
-	"ProjectGuryanov/ProjectGuryanov/family"
-	"ProjectGuryanov/ProjectGuryanov/furniture"
-	"ProjectGuryanov/ProjectGuryanov/relatives"
-	"ProjectGuryanov/ProjectGuryanov/toys"
+	"ProjectGuryanov/projectGuryanov/animals"
+	"ProjectGuryanov/projectGuryanov/family"
+	"ProjectGuryanov/projectGuryanov/furniture"
+	"ProjectGuryanov/projectGuryanov/relatives"
+	"ProjectGuryanov/projectGuryanov/toys"
 	"fmt"
 )
 
