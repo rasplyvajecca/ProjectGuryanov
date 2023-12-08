@@ -37,27 +37,27 @@ func HouseObjects(house House) {
 	fmt.Printf("Площадь: %.2f кв. м\n", house.Area)
 
 	fmt.Println("Мебель:")
-	for _, Object := range house.HouseFurniture {
-		fmt.Printf("- %s, кол-во: %d, %.2f кв. м\n", Object.Name, Object.Count, Object.Size)
+	for _, object := range house.HouseFurniture {
+		fmt.Printf("- %s, кол-во: %d, %.2f кв. м\n", object.Name, object.Count, object.Size)
 	}
 
 	fmt.Println("Семья:")
-	for _, Object := range house.HouseFamily {
-		fmt.Printf("- %s, %d\n", Object.Member, Object.Age)
+	for _, object := range house.HouseFamily {
+		fmt.Printf("- %s, %d\n", object.Member, object.Age)
 	}
 
 	fmt.Println("Родственники:")
-	for _, Object := range house.HouseRelatives {
-		fmt.Printf("- %s, %d\n", Object.Member, Object.Age)
+	for _, object := range house.HouseRelatives {
+		fmt.Printf("- %s, %d\n", object.Member, object.Age)
 	}
 
 	fmt.Println("Животные:")
-	for _, Object := range house.HouseAnimals {
-		fmt.Printf("- %s, кол-во: %d,\n", Object.Animal, Object.Count)
+	for _, object := range house.HouseAnimals {
+		fmt.Printf("- %s, кол-во: %d,\n", object.Animal, object.Count)
 	}
 
 	fmt.Println("Игрушки:")
-	for _, Object := range house.HouseToys {
-		fmt.Printf("- %s, кол-во: %d,\n", Object.Toy, Object.Count)
+	for _, object := range house.HouseToys {
+		fmt.Printf("- %s, кол-во: %d,\n", object.Toy, object.Count)
 	}
 }
