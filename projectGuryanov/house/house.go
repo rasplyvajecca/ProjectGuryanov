@@ -31,7 +31,7 @@ func NewHouse() House {
 	}
 }
 
-func HouseObjects(house House) {
+func Objects(house House) {
 	fmt.Printf("Новый дом:\n")
 	fmt.Printf("Количество комнат: %d\n", house.Rooms)
 	fmt.Printf("Площадь: %.2f кв. м\n", house.Area)

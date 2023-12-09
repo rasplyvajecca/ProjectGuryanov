@@ -6,5 +6,5 @@ import (
 
 func main() {
 	myNewHouse := house.NewHouse()
-	house.HouseObjects(myNewHouse)
+	house.Objects(myNewHouse)
 }
