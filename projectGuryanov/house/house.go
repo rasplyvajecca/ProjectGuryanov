@@ -1,12 +1,12 @@
 package house
 
 import (
-	"ProjectGuryanov/projectGuryanov/animals"
-	"ProjectGuryanov/projectGuryanov/family"
-	"ProjectGuryanov/projectGuryanov/furniture"
-	"ProjectGuryanov/projectGuryanov/relatives"
-	"ProjectGuryanov/projectGuryanov/toys"
 	"fmt"
+	"projectGuryanov/projectGuryanov/animals"
+	"projectGuryanov/projectGuryanov/family"
+	"projectGuryanov/projectGuryanov/furniture"
+	"projectGuryanov/projectGuryanov/relatives"
+	"projectGuryanov/projectGuryanov/toys"
 )
 
 type House struct {
